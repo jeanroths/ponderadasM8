@@ -32,18 +32,11 @@ map_saver = RegisterEventHandler(
                     ]
                 )
 )
-
-delay = ExecuteProcess(
-    cmd=['sleep', '5'],
-    output='screen'
-)
-
                         
 def generate_launch_description():
     return LaunchDescription([
         gazebo,
         teleop,
         nav2,
-        delay,
         map_saver
     ])

@@ -1,0 +1,16 @@
+[0.831s] Invoking command in '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/src/my_turtlebot3_mapping': PYTHONPATH=/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/build/my_turtlebot3_mapping/prefix_override:/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/install/my_turtlebot3_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_turtlebot3_mapping build --build-base /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/build/my_turtlebot3_mapping/build install --record /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/build/my_turtlebot3_mapping/install.log --single-version-externally-managed
+[1.094s] running egg_info
+[1.094s] creating ../../build/my_turtlebot3_mapping/navigation.egg-info
+[1.095s] writing ../../build/my_turtlebot3_mapping/navigation.egg-info/PKG-INFO
+[1.095s] writing dependency_links to ../../build/my_turtlebot3_mapping/navigation.egg-info/dependency_links.txt
+[1.095s] writing entry points to ../../build/my_turtlebot3_mapping/navigation.egg-info/entry_points.txt
+[1.095s] writing requirements to ../../build/my_turtlebot3_mapping/navigation.egg-info/requires.txt
+[1.095s] writing top-level names to ../../build/my_turtlebot3_mapping/navigation.egg-info/top_level.txt
+[1.095s] writing manifest file '../../build/my_turtlebot3_mapping/navigation.egg-info/SOURCES.txt'
+[1.096s] reading manifest file '../../build/my_turtlebot3_mapping/navigation.egg-info/SOURCES.txt'
+[1.097s] writing manifest file '../../build/my_turtlebot3_mapping/navigation.egg-info/SOURCES.txt'
+[1.097s] running build
+[1.097s] running install
+[1.097s] running install_data
+[1.098s] error: can't copy 'resource/navigation': doesn't exist or not a regular file
+[1.115s] Invoked command in '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/src/my_turtlebot3_mapping' returned '1': PYTHONPATH=/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/build/my_turtlebot3_mapping/prefix_override:/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/install/my_turtlebot3_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_turtlebot3_mapping build --build-base /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/build/my_turtlebot3_mapping/build install --record /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada2/ws_pond2/build/my_turtlebot3_mapping/install.log --single-version-externally-managed

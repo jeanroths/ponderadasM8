@@ -1,0 +1,14 @@
+running egg_info
+creating ../../build/my_turtlebot3_mapping/navigation.egg-info
+writing ../../build/my_turtlebot3_mapping/navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_turtlebot3_mapping/navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/my_turtlebot3_mapping/navigation.egg-info/entry_points.txt
+writing requirements to ../../build/my_turtlebot3_mapping/navigation.egg-info/requires.txt
+writing top-level names to ../../build/my_turtlebot3_mapping/navigation.egg-info/top_level.txt
+writing manifest file '../../build/my_turtlebot3_mapping/navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_turtlebot3_mapping/navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_turtlebot3_mapping/navigation.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+error: can't copy 'resource/navigation': doesn't exist or not a regular file
