@@ -1,0 +1,3 @@
+[console_scripts]
+chatnode = my_chatbot.chatnode:main
+
