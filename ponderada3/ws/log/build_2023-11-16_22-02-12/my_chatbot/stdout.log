@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/my_chatbot/my_chatbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_chatbot/my_chatbot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_chatbot/my_chatbot.egg-info/entry_points.txt
+writing requirements to ../../build/my_chatbot/my_chatbot.egg-info/requires.txt
+writing top-level names to ../../build/my_chatbot/my_chatbot.egg-info/top_level.txt
+reading manifest file '../../build/my_chatbot/my_chatbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_chatbot/my_chatbot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_chatbot/chatnode.py -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/build/my_chatbot/build/lib/my_chatbot
+running install
+running install_lib
+copying /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/build/my_chatbot/build/lib/my_chatbot/chatnode.py -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/install/my_chatbot/lib/python3.10/site-packages/my_chatbot
+byte-compiling /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/install/my_chatbot/lib/python3.10/site-packages/my_chatbot/chatnode.py to chatnode.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/install/my_chatbot/lib/python3.10/site-packages/my_chatbot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_chatbot/my_chatbot.egg-info to /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/install/my_chatbot/lib/python3.10/site-packages/my_chatbot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chatnode script to /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/install/my_chatbot/lib/my_chatbot
+writing list of installed files to '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/build/my_chatbot/install.log'

@@ -46,7 +46,7 @@ source install/setup.bash #se estiver usando zsh, mudar para setup.zsh
 1. Execute o nó do ROS 2 para iniciar o chatbot:
 
 ```bash
-ros2 run seu_projeto chatbot_node
+ros2 run my_chatbot chatnode
 ```
 
 2. O nó estará pronto para receber comandos do usuário.
@@ -62,5 +62,45 @@ ros2 run seu_projeto chatbot_node
 #### Explicação do script do chat (nó):
 
 
-### Vídeos:
+- **Inicialização do Chatbot:**
 
+    Define dicionários de intenções (intent_dict) e ações (action_dict) para interpretar comandos de movimento e outras interações.
+    Inicializa variáveis para destino (destiny) e ação (action).
+
+- **Método chatbot_prompt:**
+
+    Inicia um loop para capturar os comandos do usuário via input() em lowercase.
+    Verifica a ação a ser tomada através do método chatbot_action.
+    Se a ação for movimento ('move_to_point'), chama o método chat_responses para lidar com a ação de mover o robô para o ponto especificado.
+    Se a ação for 'turn_off', imprime uma despedida e encerra o programa.
+
+- **Método chat_responses:**
+
+    Recebe uma intenção e um comando.
+    Se a intenção for movimento ('move_to_point'), utiliza expressões regulares para encontrar o ponto de destino no comando.
+    Chama o método go_to() para mover o robô para o ponto específico.
+    Se a intenção for desligar ('turn_off'), imprime uma despedida e encerra o programa.
+
+- **Método chatbot_action:**
+
+    Itera pelo dicionário de intenções (intent_dict) para encontrar correspondências entre o comando fornecido e as intenções definidas.
+    Usa expressões regulares para verificar se há correspondência entre o comando e as intenções.
+
+- **Método go_to:**
+
+    Simula o movimento do robô para o ponto de destino especificado.
+
+#### Funcionamento Geral:
+
+O programa inicia a classe Chatbot e começa a aguardar comandos do usuário.
+O usuário fornece um comando.
+O chatbot verifica a intenção desse comando e executa a ação correspondente.
+Se for um comando de movimento, o chatbot identifica o ponto de destino e simula o movimento do robô para esse ponto.
+Se for um comando de desligamento, o chatbot encerra o programa.
+
+O código utiliza expressões regulares para corresponder padrões nos comandos fornecidos, e as ações são mapeadas por meio de dicionários para responder às intenções específicas do usuário.
+
+
+### Vídeo:
+
+<a href="https://youtu.be/_LZW9dXkOOI">vídeo do nó chatbot funcionando</a>

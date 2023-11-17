@@ -1,0 +1,37 @@
+[0.789s] Invoking command in '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/my_chatbot': PYTHONPATH=/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/prefix_override:/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_chatbot build --build-base /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build install --record /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/install.log --single-version-externally-managed
+[1.055s] running egg_info
+[1.055s] creating ../build/my_chatbot/my_chatbot.egg-info
+[1.055s] writing ../build/my_chatbot/my_chatbot.egg-info/PKG-INFO
+[1.055s] writing dependency_links to ../build/my_chatbot/my_chatbot.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../build/my_chatbot/my_chatbot.egg-info/entry_points.txt
+[1.056s] writing requirements to ../build/my_chatbot/my_chatbot.egg-info/requires.txt
+[1.056s] writing top-level names to ../build/my_chatbot/my_chatbot.egg-info/top_level.txt
+[1.056s] writing manifest file '../build/my_chatbot/my_chatbot.egg-info/SOURCES.txt'
+[1.057s] reading manifest file '../build/my_chatbot/my_chatbot.egg-info/SOURCES.txt'
+[1.058s] writing manifest file '../build/my_chatbot/my_chatbot.egg-info/SOURCES.txt'
+[1.058s] running build
+[1.058s] running build_py
+[1.058s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build
+[1.058s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build/lib
+[1.059s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build/lib/my_chatbot
+[1.059s] copying my_chatbot/chatnode.py -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build/lib/my_chatbot
+[1.059s] copying my_chatbot/__init__.py -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build/lib/my_chatbot
+[1.059s] running install
+[1.059s] running install_lib
+[1.059s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages/my_chatbot
+[1.059s] copying /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build/lib/my_chatbot/chatnode.py -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages/my_chatbot
+[1.060s] copying /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build/lib/my_chatbot/__init__.py -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages/my_chatbot
+[1.060s] byte-compiling /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages/my_chatbot/chatnode.py to chatnode.cpython-310.pyc
+[1.061s] byte-compiling /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages/my_chatbot/__init__.py to __init__.cpython-310.pyc
+[1.061s] running install_data
+[1.061s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/share/ament_index
+[1.061s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/share/ament_index/resource_index
+[1.061s] creating /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/share/ament_index/resource_index/packages
+[1.061s] copying resource/my_chatbot -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/share/ament_index/resource_index/packages
+[1.062s] copying package.xml -> /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/share/my_chatbot
+[1.062s] running install_egg_info
+[1.063s] Copying ../build/my_chatbot/my_chatbot.egg-info to /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages/my_chatbot-0.0.0-py3.10.egg-info
+[1.064s] running install_scripts
+[1.083s] Installing chatnode script to /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/my_chatbot
+[1.083s] writing list of installed files to '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/install.log'
+[1.107s] Invoked command in '/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/my_chatbot' returned '0': PYTHONPATH=/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/prefix_override:/home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/install/my_chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_chatbot build --build-base /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/build install --record /home/jeanlucasrothsteinmachado/Github/ponderadasM8/ponderada3/ws/src/build/my_chatbot/install.log --single-version-externally-managed
