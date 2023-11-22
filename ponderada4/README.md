@@ -17,3 +17,54 @@ Utilizando um LLM (local ou API externa), crie um chatbot simples com instruçõ
 # Resolução:
 
 ## Guia de instalação 
+
+Primeiramente, certifique-se de ter o Conda instalado no seu computador ou crie uma Venv:
+
+```bash
+python3 -m venv venv
+```
+
+Ative o ambiente virtual:
+ 1. Linux:
+ ```bash
+ source venv/bin/activate
+ ```
+
+ 2. Windows:
+ ```bash
+ ./venv/Scripts/activate
+ ```
+
+ Depois instale as dependências do arquivo "requirements.txt":
+ ```bash
+ pip install -r requirements.txt
+ ```
+Depois da instalação do Ollama como dependência, é necessário criar um modelo LLM com o comando: 
+```bash
+ollama create <nome-do-modelfile> 
+```
+Nesse caso o Modelfile é o jedibot.
+
+ ## Explicação (jedibot.py):
+
+- **Configuração Inicial:**
+  - Importação de bibliotecas essenciais, incluindo `Ollama` e `gradio`.
+  - Configuração da conexão com um servidor local onde o modelo 'jedibot' está hospedado.
+
+- **Configuração do Ollama e Prompt:**
+  - Utilização da classe `ChatPromptTemplate` para criar um template de conversação, onde o bot atua como Yoda respondendo sobre padrões de segurança em ambientes industriais em português brasileiro.
+
+- **Cadeia de Processamento (Chain of Responsibility):**
+  - Definição de uma sequência de processamento (`chain`) que conecta a entrada do usuário à lógica do modelo Ollama, passando pela prompt de conversação e pela entrada de atividade.
+
+- **Função de Execução do Ollama:**
+  - `run_ollama` é a função principal que envia solicitações para o Ollama, processa as respostas em um loop e as envia de volta para a interface do usuário. Trata possíveis erros durante o processamento.
+
+- **Configuração da Interface Gráfica:**
+  - Utilização do `gr.Interface` para criar uma interface onde os usuários podem digitar texto para interagir com o bot e receber respostas sobre segurança industrial. Configurações de título, descrição e tipo de entrada/saída são definidas.
+
+- **Lançamento da Interface:**
+  - No final, a interface é lançada para permitir que os usuários interajam com o bot.
+
+## Vídeo:
+<a href="https://youtu.be/iMj63Bhj7tA"> Chatbot com LLM e Gradio Interface</a>
