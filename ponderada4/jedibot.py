@@ -33,6 +33,6 @@ interface = gr.Interface(
      outputs = "text",
      description="Converse com o Yoda Mestre de Segurança Industrial para obter respostas sobre segurança industrial."
      ).queue()
-
+''
 print("Mestre Yoda quer falar com você...")
 interface.launch()
