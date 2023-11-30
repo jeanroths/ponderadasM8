@@ -50,3 +50,9 @@ Como o Perceptron é uma rede neural de uma única camada que utiliza da funçã
 
 ## Vídeo:
 
+https://github.com/jeanroths/ponderadasM8/assets/99195775/b474f9c7-314a-4cce-a7bd-d967f8b5013f
+
+
+
+
+
