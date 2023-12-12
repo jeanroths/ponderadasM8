@@ -44,3 +44,4 @@ O script verificará se o arquivo de áudio está presente e seguirá com o proc
 Caso o arquivo fornecido não seja legível ou não contenha fala, mensagens indicativas serão exibidas.
 
 ## Vídeo:
+<a href= "https://youtu.be/EsxoB-_w7qg"> video ponderada 8 </a>
